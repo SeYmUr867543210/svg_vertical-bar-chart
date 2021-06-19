@@ -21,7 +21,7 @@ let svgHeight = svg.getAttribute("height")
 let svgWidth = svg.getAttribute("width")
 
 for (let i = 0; i < data.length; i++) {
-    let margin = {left: 3, right: 3, top: 10, bottom: 3}
+    let margin = {left: 3, right: 3, top: 15, bottom: 3}
     let barWidth = svgWidth / data.length - margin.left;                          // xScale
     let barHeight = svgHeight / maxBarHeight * data[i].height - margin.top;       // yScale
 
